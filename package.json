@@ -1,0 +1,32 @@
+{
+  "name": "electron-desktop",
+  "version": "0.0.1-alpha",
+  "description": "Electron Desktop Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Mestima",
+  "license": "MIT",
+  "build": {
+    "appId": "com.electron-desktop.app",
+    "productName": "Electron Desktop",
+    "win": {
+      "target": "NSIS",
+      "icon": "assets/icon.ico"
+    },
+    "directories": {
+      "output": "build"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  }
+}
