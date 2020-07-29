@@ -1,5 +1,5 @@
 # Simple Electron-Desktop
- Simple electron desktop application
+ Simple electron desktop application template
 
 ## Settings
 
